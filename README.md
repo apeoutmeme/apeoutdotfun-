@@ -2,6 +2,9 @@
 # ApeOut: Swift Exit Strategy for Crypto Traders
 ApeOut is a cutting-edge application designed for crypto traders who need to quickly "ape out" of their token positions, especially in the volatile world of memecoins and pump-and-dump schemes. Built with a focus on the pump.fun ecosystem, ApeOut provides a streamlined interface for rapid selling of tokens to maximize profits or minimize losses.
 
+![Image Description](https://github.com/apeoutmeme/resources/blob/main/assets/apeoutlogo.png?raw=true)
+
+
 ## Key Features:
 1. Quick Sell: Instantly liquidate your token holdings with a single click.
 2. Integration with pump.fun: Seamless connection to the pump.fun trading platform for efficient transactions.
