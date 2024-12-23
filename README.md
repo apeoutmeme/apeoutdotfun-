@@ -54,3 +54,17 @@ React
 Material-UI
 Solana Web3.js
 Various blockchain integrations
+
+## Support
+
+Need help? Check out our:
+- [Documentation](https://apeout.notion.site/ApeMind-Framework-Next-Gen-AI-Agent-Infrastructure-for-Solana-16595c4b66bd80f7ac4eefaa66ba2825)
+- [GitHub Issues](https://github.com/apeoutmeme/ApeMind-Framework/issues)
+- [Community Forum](https://apemind-dev.boards.net/)
+- [Website](https://apeout.fun/apemind)
+
+Join our community:
+   - [Discord](https://discord.com/invite/9tBWMyRZ)
+   - [Twitter](https://twitter.com/apeoutmeme)
+
+
