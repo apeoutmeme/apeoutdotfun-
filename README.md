@@ -69,7 +69,43 @@ Join our community:
 
 ## Getting Started
 
-Instructions for setting up the project locally will be added soon.
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- A Solana wallet (Phantom, Solflare, or Sollet)
+
+### Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/apeout.git
+   cd apeout
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Create a `.env` file based on `.env.example`:
+   ```
+   cp .env.example .env
+   ```
+
+4. Start the development server:
+   ```
+   npm start
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+## Project Structure
+
+- `src/components/` - React components
+- `src/pages/` - Page components
+- `src/utils/` - Utility functions
+- `src/assets/` - Static assets like images
 
 ## Contributing
 
