@@ -67,4 +67,16 @@ Join our community:
    - [Discord](https://discord.com/invite/9tBWMyRZ)
    - [Twitter](https://twitter.com/apeoutmeme)
 
+## Getting Started
+
+Instructions for setting up the project locally will be added soon.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+
 
