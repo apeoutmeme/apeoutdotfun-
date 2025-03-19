@@ -260,3 +260,71 @@ const GainsCalculator = () => {
                     </Grid>
                     
                     <Grid item xs={12}>
+                                      {!showResults && (
+                <Box sx={{ 
+                  height: '100%', 
+                  display: 'flex', 
+                  flexDirection: 'column', 
+                  justifyContent: 'center', 
+                  alignItems: 'center',
+                  opacity: 0.7
+                }}>
+                  <Typography variant="h6" sx={{ mb: 2 }}>
+                    Enter your investment details
+                  </Typography>
+                  <Typography variant="body2" sx={{ textAlign: 'center' }}>
+                    Calculate potential returns based on token price changes.
+                    This calculator helps you visualize possible outcomes for your investments.
+                  </Typography>
+                </Box>
+              )}
+            </Grid>
+          </Grid>
+        </StyledPaper>
+        
+        <Box sx={{ mt: 6 }}>
+          <Typography variant="h5" sx={{ mb: 3 }}>
+            How to Use the Calculator
+          </Typography>
+          
+          <Grid container spacing={3}>
+            <Grid item xs={12} md={4}>
+              <StyledPaper sx={{ height: '100%' }}>
+                <Typography variant="h6" sx={{ color: '#f97316', mb: 2 }}>
+                  1. Enter Investment
+                </Typography>
+                <Typography variant="body2">
+                  Input the amount of SOL you plan to invest in the token.
+                </Typography>
+              </StyledPaper>
+            </Grid>
+            
+            <Grid item xs={12} md={4}>
+              <StyledPaper sx={{ height: '100%' }}>
+                <Typography variant="h6" sx={{ color: '#f97316', mb: 2 }}>
+                  2. Set Token Prices
+                </Typography>
+                <Typography variant="body2">
+                  Enter the initial token price and your target price goal.
+                </Typography>
+              </StyledPaper>
+            </Grid>
+            
+            <Grid item xs={12} md={4}>
+              <StyledPaper sx={{ height: '100%' }}>
+                <Typography variant="h6" sx={{ color: '#f97316', mb: 2 }}>
+                  3. View Results
+                </Typography>
+                <Typography variant="body2">
+                  See your potential profit, ROI, and final investment value.
+                </Typography>
+              </StyledPaper>
+            </Grid>
+          </Grid>
+        </Box>
+      </Container>
+    </Box>
+  );
+};
+
+export default GainsCalculator;
